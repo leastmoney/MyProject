@@ -1,0 +1,98 @@
+package cn.itcast.jx.action.cargo;
+
+import cn.itcast.jx.action.BaseAction;
+import cn.itcast.jx.domain.ExtCproduct;
+import cn.itcast.jx.service.ExtCproductService;
+import cn.itcast.jx.service.UserService;
+import cn.itcast.jx.util.Page;
+
+import com.opensymphony.xwork2.ModelDriven;
+
+public class ExtCproductAction extends BaseAction implements ModelDriven<ExtCproduct>{
+	//模型
+	private ExtCproduct model = new ExtCproduct();
+	private ExtCproductService extCproductService;
+	
+	public void setExtCproductService(ExtCproductService extCproductService) {
+		this.extCproductService = extCproductService;
+	}
+	
+	private Page page = new Page();
+
+	public Page getPage() {
+		return page;
+	}
+
+	public void setPage(Page page) {
+		this.page = page;
+	}
+
+	public ExtCproduct getModel() {
+		return model;
+	}
+	
+	private UserService userService;
+	
+	public void setUserService(UserService userService) {
+		this.userService = userService;
+	}
+
+	public String list() throws Exception {
+	/*	Subject subject = SecurityUtils.getSubject();
+		User loginUser = (User) subject.getPrincipal();
+		User user = userService.get(User.class,loginUser.getId());
+		Set<Role> rolesList = user.getRoles();
+		super.put("rolesList",rolesList);*/
+		String hql = "from ExtCproduct";
+		//查找数据
+		extCproductService.findPage(hql, page,ExtCproduct.class, null);
+		//设置URL跳转路径
+		page.setUrl("extCproductAction_list");		
+		//将数据放入值栈
+		super.push(page);
+		
+		return "list";
+	}
+	public String toview() throws Exception {
+//		/查找用户
+		ExtCproduct ExtCproduct = extCproductService.get(ExtCproduct.class, model.getId());
+		//将用户信息放入值栈
+		super.push(ExtCproduct);
+		
+		return "toview";
+	}
+	public String tocreate() throws Exception {
+		return "tocreate";
+	}
+	
+	public String insert() throws Exception {
+		extCproductService.saveOrUpdate(model);
+		return SUCCESS;
+	}
+	public String toupdate() throws Exception {
+		//1.加载当前要更新的对象
+		ExtCproduct obj = extCproductService.get(ExtCproduct.class, model.getId());
+		super.push(obj);
+		return "toupdate";
+	}
+	public String update() throws Exception {
+		//3.更新
+		extCproductService.saveOrUpdate(model);
+		return SUCCESS;
+	}
+
+	public String deleteById() throws Exception {	
+		extCproductService.deleteById(ExtCproduct.class, model.getId());
+		return SUCCESS;
+	}
+	public String delete() throws Exception {
+		//1.获取删除记录的id集合
+		String ids[] = model.getId().split(", ");
+		//2.调用业务方法，删除记录
+		for (String id : ids) {
+			extCproductService.deleteById(ExtCproduct.class, id);
+		}
+		return SUCCESS;
+	}
+
+}

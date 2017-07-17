@@ -1,0 +1,122 @@
+package cn.itcast.jx.action.cargo;
+
+import cn.itcast.jx.action.BaseAction;
+import cn.itcast.jx.domain.Contract;
+import cn.itcast.jx.service.ContractService;
+import cn.itcast.jx.service.UserService;
+import cn.itcast.jx.util.Page;
+
+import com.opensymphony.xwork2.ModelDriven;
+
+public class ContractAction extends BaseAction implements ModelDriven<Contract>{
+	//模型
+	private Contract model = new Contract();
+	private ContractService contractService;
+	
+	public void setContractService(ContractService contractService) {
+		this.contractService = contractService;
+	}
+	
+	private Page page = new Page();
+
+	public Page getPage() {
+		return page;
+	}
+
+	public void setPage(Page page) {
+		this.page = page;
+	}
+
+	public Contract getModel() {
+		return model;
+	}
+	
+	private UserService userService;
+	
+	public void setUserService(UserService userService) {
+		this.userService = userService;
+	}
+
+	public String list() throws Exception {
+		String hql = "from Contract";
+		//查找数据
+		contractService.findPage(hql, page,Contract.class, null);
+		//设置URL跳转路径
+		page.setUrl("contractAction_list");		
+		//将数据放入值栈
+		super.push(page);
+		
+		return "list";
+	}
+	public String toview() throws Exception {
+//		/查找用户
+		Contract Contract = contractService.get(Contract.class, model.getId());
+		//将用户信息放入值栈
+		super.push(Contract);
+		
+		return "toview";
+	}
+	public String tocreate() throws Exception {
+		return "tocreate";
+	}
+	
+	public String insert() throws Exception {
+		contractService.saveOrUpdate(model);
+		return SUCCESS;
+	}
+	public String toupdate() throws Exception {
+		//1.加载当前要更新的对象
+		Contract obj = contractService.get(Contract.class, model.getId());
+		super.push(obj);
+		return "toupdate";
+	}
+	public String update() throws Exception {
+		contractService.saveOrUpdate(model);
+		return SUCCESS;
+	}
+
+	public String deleteById() throws Exception {	
+		contractService.deleteById(Contract.class, model.getId());
+		return SUCCESS;
+	}
+	
+	public String delete() throws Exception {
+		//1.获取删除记录的id集合
+		String ids[] = model.getId().split(", ");
+		//2.调用业务方法，删除记录
+		for (String id : ids) {
+			contractService.deleteById(Contract.class, id);
+		}
+		return SUCCESS;
+	}
+	
+	public String submit(){
+		if(model.getId()==null){
+			return SUCCESS;
+		}
+		String[] ids = model.getId().split(", ");
+		for (String id : ids) {
+			Contract contract = contractService.get(Contract.class, id);
+			contract.setState(1);
+			contractService.saveOrUpdate(contract);	
+		}
+		return SUCCESS;
+		
+	}
+	public String cancel() throws Exception {
+		if(model.getId()==null){
+			return SUCCESS;
+		}
+		String[] ids = model.getId().split(", ");
+		
+		for(String id:ids){
+			Contract contract = contractService.get(Contract.class, id);
+			contract.setState(0);
+			
+			contractService.saveOrUpdate(contract);
+		}
+		
+		return SUCCESS;
+	}
+
+}

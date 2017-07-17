@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archive>
+  <dir sourceOnDisk="F:\ideaworkspace\jiexin\jx_parent\jx_web\target\classes" targetInArchive="/WEB-INF/classes" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\apache\shiro\shiro-all\1.2.4\shiro-all-1.2.4.jar" targetInArchive="/WEB-INF/lib/shiro-all-1.2.4.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\apache\shiro\shiro-guice\1.2.4\shiro-guice-1.2.4.jar" targetInArchive="/WEB-INF/lib/shiro-guice-1.2.4.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\apache\shiro\shiro-core\1.2.4\shiro-core-1.2.4.jar" targetInArchive="/WEB-INF/lib/shiro-core-1.2.4.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\com\google\inject\guice\3.0\guice-3.0.jar" targetInArchive="/WEB-INF/lib/guice-3.0.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\javax\inject\javax.inject\1\javax.inject-1.jar" targetInArchive="/WEB-INF/lib/javax.inject-1.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\com\google\inject\extensions\guice-multibindings\3.0\guice-multibindings-3.0.jar" targetInArchive="/WEB-INF/lib/guice-multibindings-3.0.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\apache\httpcomponents\httpclient\4.4\httpclient-4.4.jar" targetInArchive="/WEB-INF/lib/httpclient-4.4.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\apache\httpcomponents\httpcore\4.4\httpcore-4.4.jar" targetInArchive="/WEB-INF/lib/httpcore-4.4.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar" targetInArchive="/WEB-INF/lib/commons-logging-1.2.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar" targetInArchive="/WEB-INF/lib/commons-codec-1.9.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\com\alibaba\fastjson\1.1.37\fastjson-1.1.37.jar" targetInArchive="/WEB-INF/lib/fastjson-1.1.37.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\commons-beanutils\commons-beanutils\1.9.1\commons-beanutils-1.9.1.jar" targetInArchive="/WEB-INF/lib/commons-beanutils-1.9.1.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar" targetInArchive="/WEB-INF/lib/commons-collections-3.2.1.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\quartz-scheduler\quartz\2.2.1\quartz-2.2.1.jar" targetInArchive="/WEB-INF/lib/quartz-2.2.1.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\commons-fileupload\commons-fileupload\1.3.1\commons-fileupload-1.3.1.jar" targetInArchive="/WEB-INF/lib/commons-fileupload-1.3.1.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\commons-io\commons-io\2.2\commons-io-2.2.jar" targetInArchive="/WEB-INF/lib/commons-io-2.2.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\jstl\jstl\1.2\jstl-1.2.jar" targetInArchive="/WEB-INF/lib/jstl-1.2.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\aspectj\aspectjweaver\1.6.8\aspectjweaver-1.6.8.jar" targetInArchive="/WEB-INF/lib/aspectjweaver-1.6.8.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\springframework\spring-aspects\4.2.4.RELEASE\spring-aspects-4.2.4.RELEASE.jar" targetInArchive="/WEB-INF/lib/spring-aspects-4.2.4.RELEASE.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\springframework\spring-aop\4.2.4.RELEASE\spring-aop-4.2.4.RELEASE.jar" targetInArchive="/WEB-INF/lib/spring-aop-4.2.4.RELEASE.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar" targetInArchive="/WEB-INF/lib/aopalliance-1.0.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\springframework\spring-context\4.2.4.RELEASE\spring-context-4.2.4.RELEASE.jar" targetInArchive="/WEB-INF/lib/spring-context-4.2.4.RELEASE.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\springframework\spring-expression\4.2.4.RELEASE\spring-expression-4.2.4.RELEASE.jar" targetInArchive="/WEB-INF/lib/spring-expression-4.2.4.RELEASE.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\springframework\spring-context-support\4.2.4.RELEASE\spring-context-support-4.2.4.RELEASE.jar" targetInArchive="/WEB-INF/lib/spring-context-support-4.2.4.RELEASE.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\springframework\spring-web\4.2.4.RELEASE\spring-web-4.2.4.RELEASE.jar" targetInArchive="/WEB-INF/lib/spring-web-4.2.4.RELEASE.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\springframework\spring-orm\4.2.4.RELEASE\spring-orm-4.2.4.RELEASE.jar" targetInArchive="/WEB-INF/lib/spring-orm-4.2.4.RELEASE.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\springframework\spring-jdbc\4.2.4.RELEASE\spring-jdbc-4.2.4.RELEASE.jar" targetInArchive="/WEB-INF/lib/spring-jdbc-4.2.4.RELEASE.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\springframework\spring-tx\4.2.4.RELEASE\spring-tx-4.2.4.RELEASE.jar" targetInArchive="/WEB-INF/lib/spring-tx-4.2.4.RELEASE.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\springframework\spring-beans\4.2.4.RELEASE\spring-beans-4.2.4.RELEASE.jar" targetInArchive="/WEB-INF/lib/spring-beans-4.2.4.RELEASE.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\springframework\spring-core\4.2.4.RELEASE\spring-core-4.2.4.RELEASE.jar" targetInArchive="/WEB-INF/lib/spring-core-4.2.4.RELEASE.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\apache\struts\struts2-core\2.3.24\struts2-core-2.3.24.jar" targetInArchive="/WEB-INF/lib/struts2-core-2.3.24.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\apache\struts\xwork\xwork-core\2.3.24\xwork-core-2.3.24.jar" targetInArchive="/WEB-INF/lib/xwork-core-2.3.24.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\asm\asm-commons\3.3\asm-commons-3.3.jar" targetInArchive="/WEB-INF/lib/asm-commons-3.3.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\asm\asm-tree\3.3\asm-tree-3.3.jar" targetInArchive="/WEB-INF/lib/asm-tree-3.3.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\freemarker\freemarker\2.3.22\freemarker-2.3.22.jar" targetInArchive="/WEB-INF/lib/freemarker-2.3.22.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\ognl\ognl\3.0.6\ognl-3.0.6.jar" targetInArchive="/WEB-INF/lib/ognl-3.0.6.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\apache\struts\struts2-spring-plugin\2.3.24\struts2-spring-plugin-2.3.24.jar" targetInArchive="/WEB-INF/lib/struts2-spring-plugin-2.3.24.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\apache\commons\commons-lang3\3.2\commons-lang3-3.2.jar" targetInArchive="/WEB-INF/lib/commons-lang3-3.2.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\apache\struts\struts2-json-plugin\2.3.24\struts2-json-plugin-2.3.24.jar" targetInArchive="/WEB-INF/lib/struts2-json-plugin-2.3.24.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\apache\struts\struts2-convention-plugin\2.3.24\struts2-convention-plugin-2.3.24.jar" targetInArchive="/WEB-INF/lib/struts2-convention-plugin-2.3.24.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\hibernate\hibernate-core\5.0.7.Final\hibernate-core-5.0.7.Final.jar" targetInArchive="/WEB-INF/lib/hibernate-core-5.0.7.Final.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\jboss\logging\jboss-logging\3.3.0.Final\jboss-logging-3.3.0.Final.jar" targetInArchive="/WEB-INF/lib/jboss-logging-3.3.0.Final.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\hibernate\javax\persistence\hibernate-jpa-2.1-api\1.0.0.Final\hibernate-jpa-2.1-api-1.0.0.Final.jar" targetInArchive="/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\javassist\javassist\3.18.1-GA\javassist-3.18.1-GA.jar" targetInArchive="/WEB-INF/lib/javassist-3.18.1-GA.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar" targetInArchive="/WEB-INF/lib/antlr-2.7.7.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\apache\geronimo\specs\geronimo-jta_1.1_spec\1.1.1\geronimo-jta_1.1_spec-1.1.1.jar" targetInArchive="/WEB-INF/lib/geronimo-jta_1.1_spec-1.1.1.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\jboss\jandex\2.0.0.Final\jandex-2.0.0.Final.jar" targetInArchive="/WEB-INF/lib/jandex-2.0.0.Final.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\hibernate\common\hibernate-commons-annotations\5.0.1.Final\hibernate-commons-annotations-5.0.1.Final.jar" targetInArchive="/WEB-INF/lib/hibernate-commons-annotations-5.0.1.Final.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\hibernate\hibernate-entitymanager\5.0.7.Final\hibernate-entitymanager-5.0.7.Final.jar" targetInArchive="/WEB-INF/lib/hibernate-entitymanager-5.0.7.Final.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\hibernate\hibernate-validator\5.2.1.Final\hibernate-validator-5.2.1.Final.jar" targetInArchive="/WEB-INF/lib/hibernate-validator-5.2.1.Final.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar" targetInArchive="/WEB-INF/lib/validation-api-1.1.0.Final.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\com\fasterxml\classmate\1.1.0\classmate-1.1.0.jar" targetInArchive="/WEB-INF/lib/classmate-1.1.0.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\c3p0\c3p0\0.9.1.2\c3p0-0.9.1.2.jar" targetInArchive="/WEB-INF/lib/c3p0-0.9.1.2.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\apache\cxf\cxf-rt-frontend-jaxws\3.0.1\cxf-rt-frontend-jaxws-3.0.1.jar" targetInArchive="/WEB-INF/lib/cxf-rt-frontend-jaxws-3.0.1.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\xml-resolver\xml-resolver\1.2\xml-resolver-1.2.jar" targetInArchive="/WEB-INF/lib/xml-resolver-1.2.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\asm\asm\3.3.1\asm-3.3.1.jar" targetInArchive="/WEB-INF/lib/asm-3.3.1.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\apache\cxf\cxf-core\3.0.1\cxf-core-3.0.1.jar" targetInArchive="/WEB-INF/lib/cxf-core-3.0.1.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\codehaus\woodstox\woodstox-core-asl\4.4.0\woodstox-core-asl-4.4.0.jar" targetInArchive="/WEB-INF/lib/woodstox-core-asl-4.4.0.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\codehaus\woodstox\stax2-api\3.1.4\stax2-api-3.1.4.jar" targetInArchive="/WEB-INF/lib/stax2-api-3.1.4.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\apache\ws\xmlschema\xmlschema-core\2.1.0\xmlschema-core-2.1.0.jar" targetInArchive="/WEB-INF/lib/xmlschema-core-2.1.0.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\apache\cxf\cxf-rt-bindings-soap\3.0.1\cxf-rt-bindings-soap-3.0.1.jar" targetInArchive="/WEB-INF/lib/cxf-rt-bindings-soap-3.0.1.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\apache\cxf\cxf-rt-wsdl\3.0.1\cxf-rt-wsdl-3.0.1.jar" targetInArchive="/WEB-INF/lib/cxf-rt-wsdl-3.0.1.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\wsdl4j\wsdl4j\1.6.3\wsdl4j-1.6.3.jar" targetInArchive="/WEB-INF/lib/wsdl4j-1.6.3.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\apache\cxf\cxf-rt-databinding-jaxb\3.0.1\cxf-rt-databinding-jaxb-3.0.1.jar" targetInArchive="/WEB-INF/lib/cxf-rt-databinding-jaxb-3.0.1.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\com\sun\xml\bind\jaxb-impl\2.2.10-b140310.1920\jaxb-impl-2.2.10-b140310.1920.jar" targetInArchive="/WEB-INF/lib/jaxb-impl-2.2.10-b140310.1920.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\com\sun\xml\bind\jaxb-core\2.2.10-b140310.1920\jaxb-core-2.2.10-b140310.1920.jar" targetInArchive="/WEB-INF/lib/jaxb-core-2.2.10-b140310.1920.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\apache\cxf\cxf-rt-bindings-xml\3.0.1\cxf-rt-bindings-xml-3.0.1.jar" targetInArchive="/WEB-INF/lib/cxf-rt-bindings-xml-3.0.1.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\apache\cxf\cxf-rt-frontend-simple\3.0.1\cxf-rt-frontend-simple-3.0.1.jar" targetInArchive="/WEB-INF/lib/cxf-rt-frontend-simple-3.0.1.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\apache\cxf\cxf-rt-ws-addr\3.0.1\cxf-rt-ws-addr-3.0.1.jar" targetInArchive="/WEB-INF/lib/cxf-rt-ws-addr-3.0.1.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\apache\cxf\cxf-rt-ws-policy\3.0.1\cxf-rt-ws-policy-3.0.1.jar" targetInArchive="/WEB-INF/lib/cxf-rt-ws-policy-3.0.1.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\apache\neethi\neethi\3.0.3\neethi-3.0.3.jar" targetInArchive="/WEB-INF/lib/neethi-3.0.3.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\apache\cxf\cxf-rt-transports-http\3.0.1\cxf-rt-transports-http-3.0.1.jar" targetInArchive="/WEB-INF/lib/cxf-rt-transports-http-3.0.1.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\log4j\log4j\1.2.12\log4j-1.2.12.jar" targetInArchive="/WEB-INF/lib/log4j-1.2.12.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\slf4j\slf4j-api\1.6.6\slf4j-api-1.6.6.jar" targetInArchive="/WEB-INF/lib/slf4j-api-1.6.6.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\slf4j\slf4j-log4j12\1.6.6\slf4j-log4j12-1.6.6.jar" targetInArchive="/WEB-INF/lib/slf4j-log4j12-1.6.6.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\javax\mail\mail\1.4.4\mail-1.4.4.jar" targetInArchive="/WEB-INF/lib/mail-1.4.4.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\javax\activation\activation\1.1\activation-1.1.jar" targetInArchive="/WEB-INF/lib/activation-1.1.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar" targetInArchive="/WEB-INF/lib/commons-lang-2.6.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\dom4j\dom4j\1.6\dom4j-1.6.jar" targetInArchive="/WEB-INF/lib/dom4j-1.6.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar" targetInArchive="/WEB-INF/lib/xml-apis-1.0.b2.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\apache\poi\poi\3.11\poi-3.11.jar" targetInArchive="/WEB-INF/lib/poi-3.11.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\apache\poi\poi-ooxml\3.11\poi-ooxml-3.11.jar" targetInArchive="/WEB-INF/lib/poi-ooxml-3.11.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\apache\poi\poi-ooxml-schemas\3.11\poi-ooxml-schemas-3.11.jar" targetInArchive="/WEB-INF/lib/poi-ooxml-schemas-3.11.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar" targetInArchive="/WEB-INF/lib/xmlbeans-2.6.0.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar" targetInArchive="/WEB-INF/lib/stax-api-1.0.1.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\com\oracle\ojdbc14\10.2.0.4.0\ojdbc14-10.2.0.4.0.jar" targetInArchive="/WEB-INF/lib/ojdbc14-10.2.0.4.0.jar" />
+  <file sourceOnDisk="E:\apache-maven-3.3.9\repository\net\sf\ehcache\ehcache-core\2.6.6\ehcache-core-2.6.6.jar" targetInArchive="/WEB-INF/lib/ehcache-core-2.6.6.jar" />
+  <file sourceOnDisk="F:\ideaworkspace\jiexin\jx_parent\jx_web\target\jx_web-0.0.1-SNAPSHOT\META-INF\MANIFEST.MF" targetInArchive="/META-INF/MANIFEST.MF" />
+  <dir sourceOnDisk="F:\ideaworkspace\jiexin\jx_parent\jx_web\src\main\webapp" targetInArchive="/" />
+  <file sourceOnDisk="F:\ideaworkspace\jiexin\jx_parent\jx_web\src\main\webapp\WEB-INF\web.xml" targetInArchive="/WEB-INF/web.xml" />
+  <archive targetInArchive="/WEB-INF/lib/jx_service-0.0.1-SNAPSHOT.jar">
+    <dir sourceOnDisk="F:\ideaworkspace\jiexin\jx_parent\jx_service\target\classes" targetInArchive="/" />
+  </archive>
+  <archive targetInArchive="/WEB-INF/lib/jx_utils-0.0.1-SNAPSHOT.jar">
+    <dir sourceOnDisk="F:\ideaworkspace\jiexin\jx_parent\jx_utils\target\classes" targetInArchive="/" />
+  </archive>
+  <archive targetInArchive="/WEB-INF/lib/jx_domain-0.0.1-SNAPSHOT.jar">
+    <dir sourceOnDisk="F:\ideaworkspace\jiexin\jx_parent\jx_domain\target\classes" targetInArchive="/" />
+  </archive>
+  <archive targetInArchive="/WEB-INF/lib/jx_dao-0.0.1-SNAPSHOT.jar">
+    <dir sourceOnDisk="F:\ideaworkspace\jiexin\jx_parent\jx_dao\target\classes" targetInArchive="/" />
+  </archive>
+  <archive targetInArchive="/WEB-INF/lib/jx_exception-0.0.1-SNAPSHOT.jar">
+    <dir sourceOnDisk="F:\ideaworkspace\jiexin\jx_parent\jx_exception\target\classes" targetInArchive="/" />
+  </archive>
+</archive>
+

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--suppress ALL -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"       
+	xmlns:p="http://www.springframework.org/schema/p"  
+	xmlns:context="http://www.springframework.org/schema/context"   
+	xmlns:tx="http://www.springframework.org/schema/tx"  
+	xmlns:aop="http://www.springframework.org/schema/aop"  
+	xsi:schemaLocation="http://www.springframework.org/schema/beans    
+	http://www.springframework.org/schema/beans/spring-beans.xsd    
+	http://www.springframework.org/schema/aop    
+	http://www.springframework.org/schema/aop/spring-aop.xsd    
+	http://www.springframework.org/schema/tx    
+	http://www.springframework.org/schema/tx/spring-tx.xsd    
+	http://www.springframework.org/schema/context    
+	http://www.springframework.org/schema/context/spring-context.xsd">
+	
+	<bean id="loginAction" class="cn.itcast.jx.action.LoginAction" scope="prototype"></bean>
+	
+	<bean id="homeAction" class="cn.itcast.jx.action.HomeAction" scope="prototype"></bean>
+	
+	<bean id="deptAction" class="cn.itcast.jx.action.sysadmin.DeptAction" scope="prototype">
+		<property name="deptService" ref="deptService"></property>
+	</bean>
+	<bean id="userAction" class="cn.itcast.jx.action.sysadmin.UserAction" scope="prototype">
+		<property name="userService" ref="userService"></property>
+		<property name="deptService" ref="deptService"></property>
+		<property name="roleService" ref="roleService"></property>
+	</bean>
+	<bean id="roleAction" class="cn.itcast.jx.action.sysadmin.RoleAction" scope="prototype">
+		 <property name="roleService" ref="roleService"></property>
+		 <property name="moduleService" ref="moduleService"></property>
+	</bean>
+		<bean id="moduleAction" class="cn.itcast.jx.action.sysadmin.ModuleAction" scope="prototype">
+		<property name="moduleService" ref="moduleService"></property>
+		<property name="userService" ref="userService"></property>
+	</bean>
+	
+	<bean id="contractAction" class="cn.itcast.jx.action.cargo.ContractAction" scope="prototype">
+		<property name="contractService" ref="contractService"></property>
+		<property name="deptService" ref="deptService"></property>
+	</bean>
+	
+	<bean id="contractProductAction" class="cn.itcast.jx.action.cargo.ContractProductAction" scope="prototype">
+		<property name="contractProductService" ref="contractProductService"></property>
+		<property name="factoryService" ref="factoryService"></property>
+	</bean>
+	
+	<bean id="extCproductAction" class="cn.itcast.jx.action.cargo.ExtCproductAction" scope="prototype">
+		<property name="extCproductService" ref="extCproductService"></property>
+		<property name="factoryService" ref="factoryService"></property>
+	</bean>
+
+	<bean id="outProductAction" class="cn.itcast.jx.action.cargo.OutProductAction" scope="prototype">
+		<property name="contractProductService" ref="contractProductService"></property>
+	</bean>
+
+	<bean id="outProductAction1" class="cn.itcast.jx.action.cargo.OutProductAction1" scope="prototype">
+		<property name="contractProductService" ref="contractProductService"></property>
+	</bean>
+
+	<bean id="exportAction" class="cn.itcast.jx.action.cargo.ExportAction" scope="prototype">
+		<property name="exportService" ref="exportService"></property>
+		<property name="contractService" ref="contractService"></property>
+		<property name="exportProductService" ref="exportProductService"></property>
+	</bean>
+	<bean id="statChartAction" class="cn.itcast.jx.action.stat.StatChartAction" scope="prototype">
+		<property name="sqlDao" ref="sqlDao"></property>
+	</bean>
+</beans>

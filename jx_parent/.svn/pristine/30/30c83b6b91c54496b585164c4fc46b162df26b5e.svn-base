@@ -1,0 +1,45 @@
+package cn.itcast.jx.service.impl;
+
+import java.io.Serializable;
+import java.util.List;
+
+import cn.itcast.jx.dao.BaseDao;
+import cn.itcast.jx.domain.ExtCproduct;
+import cn.itcast.jx.service.ExtCproductService;
+import cn.itcast.jx.util.Page;
+
+public class ExtCproductServiceImpl implements ExtCproductService{
+private BaseDao baseDao;
+	
+	public void setBaseDao(BaseDao baseDao) {
+		this.baseDao = baseDao;
+	}
+	
+	public Page<ExtCproduct> findPage(String hql, Page page, Class<ExtCproduct> entityClass,
+			Object[] params) {
+		return baseDao.findPage(hql, page, entityClass, params);
+	}
+
+	public ExtCproduct get(Class<ExtCproduct> entityClass, Serializable id) {
+		return baseDao.get(entityClass, id);
+	}
+
+	public List<ExtCproduct> find(String hql, Class<ExtCproduct> entityClass, Object[] params) {
+		return baseDao.find(hql, entityClass, params);
+	}
+
+	public void saveOrUpdate(ExtCproduct ExtCproduct) {
+		baseDao.saveOrUpdate(ExtCproduct);
+	}
+
+	public void deleteById(Class<ExtCproduct> entityClass, Serializable id) {
+		baseDao.deleteById(entityClass, id);
+	}
+
+	public void deleteById(Class<ExtCproduct> entityClass, Serializable[] ids) {
+		for (Serializable id : ids) {
+			deleteById(ExtCproduct.class, id);
+		}
+	}
+
+}

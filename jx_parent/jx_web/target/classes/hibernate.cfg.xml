@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+	"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.show_sql">true</property>
+		<property name="hibernate.format_sql">true</property>
+		<property name="hibernate.hbm2ddl.auto">none</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</property>
+		<!-- 懒加载，配合web.xml中配置的 openSessionInViewFilter -->
+		<property name="hibernate.enable_lazy_load_no_trans">true</property>
+        <!--校验模式  JPA  java persistent api-->
+		<property name="javax.persistence.validation.mode">none</property>
+		<mapping resource="cn/itcast/jx/domain/Dept.hbm.xml"/>
+		<mapping resource="cn/itcast/jx/domain/User.hbm.xml"/>
+		<mapping resource="cn/itcast/jx/domain/UserInfo.hbm.xml"/>
+		<mapping resource="cn/itcast/jx/domain/Role.hbm.xml"/>
+		<mapping resource="cn/itcast/jx/domain/Module.hbm.xml"/>
+		
+		<mapping resource="cn/itcast/jx/domain/Contract.hbm.xml"/>
+		<mapping resource="cn/itcast/jx/domain/ContractProduct.hbm.xml"/>
+		<mapping resource="cn/itcast/jx/domain/ExtCproduct.hbm.xml"/>
+		<mapping resource="cn/itcast/jx/domain/Factory.hbm.xml"/>
+		<mapping resource="cn/itcast/jx/domain/FuBoss.hbm.xml"/>
+
+		<mapping resource="cn/itcast/jx/domain/Export.hbm.xml"/>
+		<mapping resource="cn/itcast/jx/domain/ExportProduct.hbm.xml"/>
+		<mapping resource="cn/itcast/jx/domain/ExtEproduct.hbm.xml"/>
+	</session-factory>
+</hibernate-configuration>
+

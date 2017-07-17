@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jx_dao" />
+        <module name="jx_domain" />
+        <module name="jx_exception" />
+        <module name="jx_service" />
+        <module name="jx_utils" />
+        <module name="jx_web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jx_dao" target="1.7" />
+      <module name="jx_domain" target="1.7" />
+      <module name="jx_exception" target="1.7" />
+      <module name="jx_parent" target="1.7" />
+      <module name="jx_service" target="1.7" />
+      <module name="jx_utils" target="1.7" />
+      <module name="jx_web" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

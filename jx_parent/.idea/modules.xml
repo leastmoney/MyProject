@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CustomsReportSystem/CustomsReportSystem.iml" filepath="$PROJECT_DIR$/CustomsReportSystem/CustomsReportSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jx_dao/jx_dao.iml" filepath="$PROJECT_DIR$/jx_dao/jx_dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jx_domain/jx_domain.iml" filepath="$PROJECT_DIR$/jx_domain/jx_domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jx_exception/jx_exception.iml" filepath="$PROJECT_DIR$/jx_exception/jx_exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jx_parent.iml" filepath="$PROJECT_DIR$/jx_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jx_service/jx_service.iml" filepath="$PROJECT_DIR$/jx_service/jx_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jx_utils/jx_utils.iml" filepath="$PROJECT_DIR$/jx_utils/jx_utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jx_web/jx_web.iml" filepath="$PROJECT_DIR$/jx_web/jx_web.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="cn.itcast.jx.domain">
+	<class name="FuBoss" table="FUBOSS">
+		<id name="fubossId" column="FUBOSSID" type="string">
+			<generator class="uuid"/>
+		</id>
+		<property name="type" column="TYPE"/>
+		<property name="id" column="ID"/>
+	</class>
+</hibernate-mapping>

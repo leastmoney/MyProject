@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="cn.itcast.jx.domain">
+	<class name="User" table="USER_P" dynamic-update="true" dynamic-insert="true">
+		<id name="id" column="USER_ID">
+			<generator class="assigned"></generator>
+		</id>
+	<property name="userName" column="USER_NAME"></property>
+	<property name="password" column="PASSWORD"></property>
+	<property name="state" column="STATE"></property>
+    <property name="createBy" column="CREATE_BY"></property>
+    <property name="createDept" column="CREATE_DEPT"></property>
+    <property name="createTime" column="CREATE_TIME"></property>
+    <property name="updateBy" column="UPDATE_BY"></property>
+    <property name="updateTime" column="UPDATE_TIME"></property> 
+	<!-- 用户与部门 多对一 -->
+	<many-to-one name="dept" class="Dept" column="DEPT_ID"></many-to-one>
+	<!-- 用户和用户拓展的信息:一对一 
+		name:类的属性名字
+		class:当前属性对象的完整包路径
+		cascade:all,级联操作,能进行所有的操作
+	-->
+	<one-to-one name="userInfo" class="UserInfo" cascade="all"></one-to-one>	
+	<!-- 配置多对多 -->
+	<bag name="roles" table="ROLE_USER_P" schema="money">
+		<!-- "ROLE_ID":當前類的外键名称 -->
+			<key column="User_id"></key>
+			<!-- name:角色类中关联用户类的属性
+				table:中间表
+				key:角色表在中间表的外键名称
+				class:角色类关联的用户类全路径
+				column:用户表在中间表的外键名称
+ -->
+			<many-to-many class="Role" column="ROLE_ID"></many-to-many>
+		</bag>		
+	</class>
+
+
+</hibernate-mapping>

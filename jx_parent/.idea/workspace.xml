@@ -1,0 +1,2095 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="756b1094-ef5f-4f48-b66d-f5d8fee242ac" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/java/cn/itcast/jx/action/stat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/java/cn/itcast/jx/print" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/dragIcon.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/dragIconBlack.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/dragIconH.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/dragIconHBlack.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/dragIconRectBig.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/dragIconRectBigBlack.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/dragIconRectBigBlackH.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/dragIconRectBigH.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/dragIconRectSmall.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/dragIconRectSmallBlack.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/dragIconRectSmallBlackH.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/dragIconRectSmallH.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/dragIconRoundBig.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/dragIconRoundBigBlack.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/dragIconRoundBigBlackH.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/dragIconRoundBigH.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/dragIconRoundSmall.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/dragIconRoundSmallBlack.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/dragIconRoundSmallBlackH.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/dragIconRoundSmallH.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/export.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/exportWhite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/lens.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/lensWhite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/lensWhite_old.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/lens_old.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/black" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/black/pattern1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/black/pattern10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/black/pattern11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/black/pattern12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/black/pattern13.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/black/pattern14.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/black/pattern15.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/black/pattern16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/black/pattern17.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/black/pattern18.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/black/pattern19.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/black/pattern2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/black/pattern20.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/black/pattern21.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/black/pattern3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/black/pattern4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/black/pattern5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/black/pattern6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/black/pattern7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/black/pattern8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/black/pattern9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/chalk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/chalk/pattern1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/chalk/pattern1r.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/chalk/pattern2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/chalk/pattern3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/chalk/pattern4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/chalk/pattern5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/chalk/pattern6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/white" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/white/pattern1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/white/pattern10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/white/pattern11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/white/pattern12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/white/pattern13.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/white/pattern14.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/white/pattern15.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/white/pattern16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/white/pattern17.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/white/pattern18.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/white/pattern19.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/white/pattern2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/white/pattern20.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/white/pattern21.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/white/pattern3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/white/pattern4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/white/pattern5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/white/pattern6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/white/pattern7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/white/pattern8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/patterns/white/pattern9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/animate" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/animate/examples" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/dataloader" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/dataloader/examples" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/dataloader/examples/data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/dataloader/lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/examples" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/examples/images" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/examples/images/bicycle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/examples/images/car.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/examples/images/motorcycle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/libs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/libs/jszip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/libs/pdfmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/libs/xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/shapes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/responsive" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/responsive/examples" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/responsive/examples/images" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/responsive/examples/images/bicycle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/responsive/examples/images/car.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/responsive/examples/images/motorcycle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/themes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/images" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/images/0.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/images/1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/images/2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/images/3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/images/bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/images/bgSky.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/images/bicycle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/images/board.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/images/car.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/images/motorcycle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/images/redstar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/images/star.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/echarts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/echarts/chart" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/echarts/theme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/make/xlsprint/tOUTPRODUCT.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_dao/jx_dao.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_domain/jx_domain.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_domain/src/main/java/cn/itcast/jx/domain/Export.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_domain/src/main/java/cn/itcast/jx/domain/ExportProduct.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_domain/src/main/java/cn/itcast/jx/domain/ExtEproduct.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_domain/src/main/java/cn/itcast/jx/domain/FuBoss.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_domain/src/main/resources/cn/itcast/jx/domain/Export.hbm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_domain/src/main/resources/cn/itcast/jx/domain/ExportProduct.hbm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_domain/src/main/resources/cn/itcast/jx/domain/ExtEproduct.hbm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_domain/src/main/resources/cn/itcast/jx/domain/FuBoss.hbm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_exception/jx_exception.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_parent.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_service/jx_service.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_service/src/main/java/cn/itcast/jx/service/ExportProductService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_service/src/main/java/cn/itcast/jx/service/ExportService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_service/src/main/java/cn/itcast/jx/service/ExtEproductService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_service/src/main/java/cn/itcast/jx/service/impl/ExportProductServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_service/src/main/java/cn/itcast/jx/service/impl/ExportServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_service/src/main/java/cn/itcast/jx/service/impl/ExtEproductServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_utils/jx_utils.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_utils/src/main/java/cn/itcast/jx/util/FileUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_utils/src/main/java/cn/itcast/jx/util/PoiUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/jx_web.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/java/cn/itcast/jx/action/cargo/ExportAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/java/cn/itcast/jx/action/cargo/OutProductAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/java/cn/itcast/jx/action/cargo/OutProductAction1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/java/cn/itcast/jx/action/stat/StatChartAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/java/cn/itcast/jx/print/ContractPrint.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/WEB-INF/pages/stat/chart/column.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/WEB-INF/pages/stat/chart/echarts.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/WEB-INF/pages/stat/chart/echarts2.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/WEB-INF/pages/stat/chart/line.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/WEB-INF/pages/stat/chart/pie.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/amcharts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/funnel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/gantt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/gauge.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/dragIconRectBig.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/dragIconRectBigBlack.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/dragIconRectBigBlackH.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/dragIconRectBigH.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/dragIconRectSmall.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/dragIconRectSmallBlack.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/dragIconRectSmallBlackH.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/dragIconRectSmallH.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/dragIconRoundBig.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/dragIconRoundBigBlack.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/dragIconRoundBigBlackH.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/dragIconRoundBigH.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/dragIconRoundSmall.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/dragIconRoundSmallBlack.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/dragIconRoundSmallBlackH.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/dragIconRoundSmallH.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/eraserIcon.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/eraserIconH.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/lens.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/lensWhite.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/pencilIcon.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/pencilIconH.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/xIcon.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/images/xIconH.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/lang/az.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/lang/bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/lang/cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/lang/de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/lang/es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/lang/fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/lang/fo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/lang/fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/lang/hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/lang/hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/lang/id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/lang/is.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/lang/it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/lang/ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/lang/ko.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/lang/lt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/lang/lv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/lang/mk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/lang/mn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/lang/mt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/lang/nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/lang/no.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/lang/pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/lang/pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/lang/ro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/lang/ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/lang/rw.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/lang/sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/lang/sl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/lang/so.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/lang/th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/lang/tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/lang/zh.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/pie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/animate/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/animate/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/animate/animate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/animate/animate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/animate/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/animate/examples/funnel.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/animate/examples/pie.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/animate/examples/radar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/animate/examples/serial_column.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/animate/examples/serial_line.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/animate/examples/xy.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/animate/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/animate/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/dataloader/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/dataloader/dataloader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/dataloader/dataloader.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/dataloader/examples/data/MSFT.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/dataloader/examples/data/MSFT_events.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/dataloader/examples/data/TXN.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/dataloader/examples/data/gantt.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/dataloader/examples/data/gauge.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/dataloader/examples/data/map.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/dataloader/examples/data/map_areas.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/dataloader/examples/data/pie.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/dataloader/examples/data/pie.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/dataloader/examples/data/serial.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/dataloader/examples/data/serial.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/dataloader/examples/data/serial2.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/dataloader/examples/gantt_json.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/dataloader/examples/gauge_json.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/dataloader/examples/map_json.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/dataloader/examples/map_json_external_function.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/dataloader/examples/pie_csv.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/dataloader/examples/pie_json.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/dataloader/examples/serial2_json.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/dataloader/examples/serial_csv.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/dataloader/examples/serial_json.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/dataloader/examples/serial_with_dynamic_graphs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/dataloader/examples/stock_csv_data_and_events.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/dataloader/examples/stock_csv_progressbar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/dataloader/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/dataloader/lang/cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/dataloader/lang/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/dataloader/lang/fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/dataloader/lang/lt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/dataloader/license.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/dataloader/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/dataloader/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/examples/advanced.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/examples/export.config.advanced.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/examples/export.config.default.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/examples/funnel.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/examples/gantt.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/examples/gauge.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/examples/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/examples/map.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/examples/pie1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/examples/pie2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/examples/pie3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/examples/pie4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/examples/radar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/examples/serial1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/examples/serial2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/examples/serial3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/examples/stock.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/examples/xy.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/export.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/export.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/export.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/lang/cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/lang/de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/lang/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/lang/es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/lang/fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/lang/hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/lang/it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/lang/ko.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/lang/lt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/lang/pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/lang/pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/lang/zh.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/libs/FileSaver.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/libs/FileSaver.js/FileSaver.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/libs/FileSaver.js/FileSaver.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/libs/blob.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/libs/blob.js/blob.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/libs/fabric.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/libs/fabric.js/fabric.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/libs/fabric.js/fabric.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/libs/jszip/jszip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/libs/jszip/jszip.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/libs/pdfmake/pdfmake.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/libs/pdfmake/pdfmake.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/libs/pdfmake/pdfmake.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/libs/pdfmake/vfs_fonts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/libs/xlsx/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/libs/xlsx/xlsx.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/libs/xlsx/xlsx.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/libs/xlsx/xlsx.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/shapes/1.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/shapes/10.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/shapes/11.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/shapes/12.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/shapes/13.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/shapes/14.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/shapes/15.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/shapes/16.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/shapes/17.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/shapes/18.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/shapes/19.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/shapes/2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/shapes/20.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/shapes/21.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/shapes/22.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/shapes/23.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/shapes/24.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/shapes/25.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/shapes/26.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/shapes/27.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/shapes/28.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/shapes/29.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/shapes/3.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/shapes/30.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/shapes/31.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/shapes/4.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/shapes/5.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/shapes/6.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/shapes/7.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/shapes/8.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/export/shapes/9.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/responsive/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/responsive/examples/funnel.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/responsive/examples/gantt.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/responsive/examples/gauge.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/responsive/examples/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/responsive/examples/map.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/responsive/examples/pie1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/responsive/examples/pie2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/responsive/examples/pie3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/responsive/examples/radar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/responsive/examples/serial1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/responsive/examples/serial2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/responsive/examples/serial3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/responsive/examples/stock.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/responsive/examples/xy.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/responsive/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/responsive/license.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/responsive/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/responsive/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/responsive/responsive.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/responsive/responsive.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/plugins/responsive/responsive.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/radar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/serial.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/themes/black.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/themes/chalk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/themes/dark.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/themes/light.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/themes/patterns.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/xy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/images/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/echarts/chart/bar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/echarts/chart/chord.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/echarts/chart/eventRiver.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/echarts/chart/force.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/echarts/chart/funnel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/echarts/chart/gauge.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/echarts/chart/heatmap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/echarts/chart/k.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/echarts/chart/line.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/echarts/chart/map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/echarts/chart/pie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/echarts/chart/radar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/echarts/chart/scatter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/echarts/chart/tree.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/echarts/chart/treemap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/echarts/chart/venn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/echarts/chart/wordCloud.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/echarts/echarts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/echarts/theme/default.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/echarts/theme/infographic.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/echarts/theme/macarons.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_dao/target/classes/cn/itcast/jx/dao/BaseDao.class" afterPath="$PROJECT_DIR$/jx_dao/target/classes/cn/itcast/jx/dao/BaseDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_dao/target/classes/cn/itcast/jx/dao/common/SqlDao.class" afterPath="$PROJECT_DIR$/jx_dao/target/classes/cn/itcast/jx/dao/common/SqlDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_dao/target/classes/cn/itcast/jx/dao/impl/BaseDaoImpl.class" afterPath="$PROJECT_DIR$/jx_dao/target/classes/cn/itcast/jx/dao/impl/BaseDaoImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_domain/target/classes/cn/itcast/jx/domain/BaseEntity.class" afterPath="$PROJECT_DIR$/jx_domain/target/classes/cn/itcast/jx/domain/BaseEntity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_domain/target/classes/cn/itcast/jx/domain/Contract.class" afterPath="$PROJECT_DIR$/jx_domain/target/classes/cn/itcast/jx/domain/Contract.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_domain/target/classes/cn/itcast/jx/domain/ContractProduct.class" afterPath="$PROJECT_DIR$/jx_domain/target/classes/cn/itcast/jx/domain/ContractProduct.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_domain/target/classes/cn/itcast/jx/domain/Dept.class" afterPath="$PROJECT_DIR$/jx_domain/target/classes/cn/itcast/jx/domain/Dept.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_domain/target/classes/cn/itcast/jx/domain/ExtCproduct.class" afterPath="$PROJECT_DIR$/jx_domain/target/classes/cn/itcast/jx/domain/ExtCproduct.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_domain/target/classes/cn/itcast/jx/domain/Factory.class" afterPath="$PROJECT_DIR$/jx_domain/target/classes/cn/itcast/jx/domain/Factory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_domain/target/classes/cn/itcast/jx/domain/Module.class" afterPath="$PROJECT_DIR$/jx_domain/target/classes/cn/itcast/jx/domain/Module.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_domain/target/classes/cn/itcast/jx/domain/Role.class" afterPath="$PROJECT_DIR$/jx_domain/target/classes/cn/itcast/jx/domain/Role.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_domain/target/classes/cn/itcast/jx/domain/User.class" afterPath="$PROJECT_DIR$/jx_domain/target/classes/cn/itcast/jx/domain/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_domain/target/classes/cn/itcast/jx/domain/UserInfo.class" afterPath="$PROJECT_DIR$/jx_domain/target/classes/cn/itcast/jx/domain/UserInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_exception/target/classes/cn/itcast/jx/exception/SysException.class" afterPath="$PROJECT_DIR$/jx_exception/target/classes/cn/itcast/jx/exception/SysException.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_service/target/classes/cn/itcast/jx/service/ContractProductService.class" afterPath="$PROJECT_DIR$/jx_service/target/classes/cn/itcast/jx/service/ContractProductService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_service/target/classes/cn/itcast/jx/service/ContractService.class" afterPath="$PROJECT_DIR$/jx_service/target/classes/cn/itcast/jx/service/ContractService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_service/target/classes/cn/itcast/jx/service/DeptService.class" afterPath="$PROJECT_DIR$/jx_service/target/classes/cn/itcast/jx/service/DeptService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_service/target/classes/cn/itcast/jx/service/ExtCproductService.class" afterPath="$PROJECT_DIR$/jx_service/target/classes/cn/itcast/jx/service/ExtCproductService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_service/target/classes/cn/itcast/jx/service/FactoryService.class" afterPath="$PROJECT_DIR$/jx_service/target/classes/cn/itcast/jx/service/FactoryService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_service/target/classes/cn/itcast/jx/service/ModuleService.class" afterPath="$PROJECT_DIR$/jx_service/target/classes/cn/itcast/jx/service/ModuleService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_service/target/classes/cn/itcast/jx/service/RoleService.class" afterPath="$PROJECT_DIR$/jx_service/target/classes/cn/itcast/jx/service/RoleService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_service/target/classes/cn/itcast/jx/service/UserService.class" afterPath="$PROJECT_DIR$/jx_service/target/classes/cn/itcast/jx/service/UserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_service/target/classes/cn/itcast/jx/service/impl/ContractProductServiceImpl.class" afterPath="$PROJECT_DIR$/jx_service/target/classes/cn/itcast/jx/service/impl/ContractProductServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_service/target/classes/cn/itcast/jx/service/impl/ContractServiceImpl.class" afterPath="$PROJECT_DIR$/jx_service/target/classes/cn/itcast/jx/service/impl/ContractServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_service/target/classes/cn/itcast/jx/service/impl/DeptServiceImpl.class" afterPath="$PROJECT_DIR$/jx_service/target/classes/cn/itcast/jx/service/impl/DeptServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_service/target/classes/cn/itcast/jx/service/impl/ExtCproductServiceImpl.class" afterPath="$PROJECT_DIR$/jx_service/target/classes/cn/itcast/jx/service/impl/ExtCproductServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_service/target/classes/cn/itcast/jx/service/impl/FactoryServiceImpl.class" afterPath="$PROJECT_DIR$/jx_service/target/classes/cn/itcast/jx/service/impl/FactoryServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_service/target/classes/cn/itcast/jx/service/impl/ModuleServiceImpl.class" afterPath="$PROJECT_DIR$/jx_service/target/classes/cn/itcast/jx/service/impl/ModuleServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_service/target/classes/cn/itcast/jx/service/impl/RoleServiceImpl.class" afterPath="$PROJECT_DIR$/jx_service/target/classes/cn/itcast/jx/service/impl/RoleServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_service/target/classes/cn/itcast/jx/service/impl/UserServiceImpl$1.class" afterPath="$PROJECT_DIR$/jx_service/target/classes/cn/itcast/jx/service/impl/UserServiceImpl$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_service/target/classes/cn/itcast/jx/service/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/jx_service/target/classes/cn/itcast/jx/service/impl/UserServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_utils/target/classes/cn/itcast/jx/common/SysConstant.class" afterPath="$PROJECT_DIR$/jx_utils/target/classes/cn/itcast/jx/common/SysConstant.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_utils/target/classes/cn/itcast/jx/util/Arith.class" afterPath="$PROJECT_DIR$/jx_utils/target/classes/cn/itcast/jx/util/Arith.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_utils/target/classes/cn/itcast/jx/util/DateConverter.class" afterPath="$PROJECT_DIR$/jx_utils/target/classes/cn/itcast/jx/util/DateConverter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_utils/target/classes/cn/itcast/jx/util/DateUtils.class" afterPath="$PROJECT_DIR$/jx_utils/target/classes/cn/itcast/jx/util/DateUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_utils/target/classes/cn/itcast/jx/util/DownloadUtil.class" afterPath="$PROJECT_DIR$/jx_utils/target/classes/cn/itcast/jx/util/DownloadUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_utils/target/classes/cn/itcast/jx/util/Encrypt.class" afterPath="$PROJECT_DIR$/jx_utils/target/classes/cn/itcast/jx/util/Encrypt.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_utils/target/classes/cn/itcast/jx/util/FormatStyle.class" afterPath="$PROJECT_DIR$/jx_utils/target/classes/cn/itcast/jx/util/FormatStyle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_utils/target/classes/cn/itcast/jx/util/MailUtil.class" afterPath="$PROJECT_DIR$/jx_utils/target/classes/cn/itcast/jx/util/MailUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_utils/target/classes/cn/itcast/jx/util/Page.class" afterPath="$PROJECT_DIR$/jx_utils/target/classes/cn/itcast/jx/util/Page.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_utils/target/classes/cn/itcast/jx/util/UtilFuns.class" afterPath="$PROJECT_DIR$/jx_utils/target/classes/cn/itcast/jx/util/UtilFuns.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_web/target/classes/cn/itcast/jx/action/BaseAction.class" afterPath="$PROJECT_DIR$/jx_web/target/classes/cn/itcast/jx/action/BaseAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_web/target/classes/cn/itcast/jx/action/HomeAction.class" afterPath="$PROJECT_DIR$/jx_web/target/classes/cn/itcast/jx/action/HomeAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_web/target/classes/cn/itcast/jx/action/LoginAction.class" afterPath="$PROJECT_DIR$/jx_web/target/classes/cn/itcast/jx/action/LoginAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_web/target/classes/cn/itcast/jx/action/cargo/ContractAction.class" afterPath="$PROJECT_DIR$/jx_web/target/classes/cn/itcast/jx/action/cargo/ContractAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_web/target/classes/cn/itcast/jx/action/cargo/ContractProductAction.class" afterPath="$PROJECT_DIR$/jx_web/target/classes/cn/itcast/jx/action/cargo/ContractProductAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_web/target/classes/cn/itcast/jx/action/cargo/ExtCproductAction.class" afterPath="$PROJECT_DIR$/jx_web/target/classes/cn/itcast/jx/action/cargo/ExtCproductAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_web/target/classes/cn/itcast/jx/action/sysadmin/DeptAction.class" afterPath="$PROJECT_DIR$/jx_web/target/classes/cn/itcast/jx/action/sysadmin/DeptAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_web/target/classes/cn/itcast/jx/action/sysadmin/ModuleAction.class" afterPath="$PROJECT_DIR$/jx_web/target/classes/cn/itcast/jx/action/sysadmin/ModuleAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_web/target/classes/cn/itcast/jx/action/sysadmin/RoleAction.class" afterPath="$PROJECT_DIR$/jx_web/target/classes/cn/itcast/jx/action/sysadmin/RoleAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_web/target/classes/cn/itcast/jx/action/sysadmin/UserAction.class" afterPath="$PROJECT_DIR$/jx_web/target/classes/cn/itcast/jx/action/sysadmin/UserAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_web/target/classes/cn/itcast/jx/action/sysadmin/ZtreeData.class" afterPath="$PROJECT_DIR$/jx_web/target/classes/cn/itcast/jx/action/sysadmin/ZtreeData.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_web/target/classes/cn/itcast/jx/shiro/AuthRealm.class" afterPath="$PROJECT_DIR$/jx_web/target/classes/cn/itcast/jx/shiro/AuthRealm.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_web/target/classes/cn/itcast/jx/shiro/CustomCredentialsMatcher.class" afterPath="$PROJECT_DIR$/jx_web/target/classes/cn/itcast/jx/shiro/CustomCredentialsMatcher.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_web/target/test-classes/cn/itcast/jx/mail/MailTest03.class" afterPath="$PROJECT_DIR$/jx_web/target/test-classes/cn/itcast/jx/mail/MailTest03.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_web/target/tomcat/work/localEngine/localhost/jx_web/org/apache/jsp/WEB_002dINF/pages/cargo/left_jsp.class" afterPath="$PROJECT_DIR$/jx_web/target/tomcat/work/localEngine/localhost/jx_web/org/apache/jsp/WEB_002dINF/pages/cargo/left_jsp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_web/target/tomcat/work/localEngine/localhost/jx_web/org/apache/jsp/WEB_002dINF/pages/home/title_jsp.class" afterPath="$PROJECT_DIR$/jx_web/target/tomcat/work/localEngine/localhost/jx_web/org/apache/jsp/WEB_002dINF/pages/home/title_jsp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/jx_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/jx_domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_exception/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/jx_exception/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_service/src/main/java/cn/itcast/jx/service/impl/ContractServiceImpl.java" afterPath="$PROJECT_DIR$/jx_service/src/main/java/cn/itcast/jx/service/impl/ContractServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_service/src/main/java/cn/itcast/jx/service/impl/ExtCproductServiceImpl.java" afterPath="$PROJECT_DIR$/jx_service/src/main/java/cn/itcast/jx/service/impl/ExtCproductServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_service/src/main/resources/spring/applicationContext-service.xml" afterPath="$PROJECT_DIR$/jx_service/src/main/resources/spring/applicationContext-service.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_service/target/classes/spring/applicationContext-service.xml" afterPath="$PROJECT_DIR$/jx_service/target/classes/spring/applicationContext-service.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/jx_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_utils/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/jx_utils/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_web/src/main/java/cn/itcast/jx/action/cargo/ContractAction.java" afterPath="$PROJECT_DIR$/jx_web/src/main/java/cn/itcast/jx/action/cargo/ContractAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_web/src/main/java/cn/itcast/jx/action/cargo/ContractProductAction.java" afterPath="$PROJECT_DIR$/jx_web/src/main/java/cn/itcast/jx/action/cargo/ContractProductAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_web/src/main/java/cn/itcast/jx/action/cargo/ExtCproductAction.java" afterPath="$PROJECT_DIR$/jx_web/src/main/java/cn/itcast/jx/action/cargo/ExtCproductAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_web/src/main/resources/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/jx_web/src/main/resources/hibernate.cfg.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_web/src/main/resources/spring/applicationContext-action.xml" afterPath="$PROJECT_DIR$/jx_web/src/main/resources/spring/applicationContext-action.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_web/src/main/resources/struts/struts-cargo.xml" afterPath="$PROJECT_DIR$/jx_web/src/main/resources/struts/struts-cargo.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_web/src/main/resources/struts/struts-stat.xml" afterPath="$PROJECT_DIR$/jx_web/src/main/resources/struts/struts-stat.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_web/src/main/webapp/WEB-INF/pages/cargo/export/jExportCreate.jsp" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/WEB-INF/pages/cargo/export/jExportCreate.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_web/src/main/webapp/WEB-INF/pages/cargo/export/jExportUpdate.jsp" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/WEB-INF/pages/cargo/export/jExportUpdate.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_web/src/main/webapp/WEB-INF/pages/cargo/outproduct/jOutProduct.jsp" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/WEB-INF/pages/cargo/outproduct/jOutProduct.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_web/src/main/webapp/WEB-INF/pages/stat/left.jsp" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/WEB-INF/pages/stat/left.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_web/src/main/webapp/js/tabledo.js" afterPath="$PROJECT_DIR$/jx_web/src/main/webapp/js/tabledo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_web/target/classes/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/jx_web/target/classes/hibernate.cfg.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_web/target/classes/spring/applicationContext-action.xml" afterPath="$PROJECT_DIR$/jx_web/target/classes/spring/applicationContext-action.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_web/target/classes/struts/struts-cargo.xml" afterPath="$PROJECT_DIR$/jx_web/target/classes/struts/struts-cargo.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_web/target/classes/struts/struts-stat.xml" afterPath="$PROJECT_DIR$/jx_web/target/classes/struts/struts-stat.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/jx_web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_web/target/tomcat/work/localEngine/localhost/jx_web/org/apache/jsp/WEB_002dINF/pages/cargo/left_jsp.java" afterPath="$PROJECT_DIR$/jx_web/target/tomcat/work/localEngine/localhost/jx_web/org/apache/jsp/WEB_002dINF/pages/cargo/left_jsp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jx_web/target/tomcat/work/localEngine/localhost/jx_web/org/apache/jsp/WEB_002dINF/pages/home/title_jsp.java" afterPath="$PROJECT_DIR$/jx_web/target/tomcat/work/localEngine/localhost/jx_web/org/apache/jsp/WEB_002dINF/pages/home/title_jsp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+    </list>
+    <ignored path="$PROJECT_DIR$/jx_service/target/" />
+    <ignored path="$PROJECT_DIR$/jx_dao/target/" />
+    <ignored path="$PROJECT_DIR$/jx_domain/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/jx_utils/target/" />
+    <ignored path="$PROJECT_DIR$/jx_exception/target/" />
+    <ignored path="$PROJECT_DIR$/jx_web/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="jx_parent" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="DeptAction.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jx_web/src/main/java/cn/itcast/jx/action/sysadmin/DeptAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="80" column="22" lean-forward="false" selection-start-line="80" selection-start-column="15" selection-end-line="80" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeptServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jx_service/src/main/java/cn/itcast/jx/service/impl/DeptServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="62" column="33" lean-forward="false" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jDeptList.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jx_web/src/main/webapp/WEB-INF/pages/sysadmin/dept/jDeptList.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="116" column="5" lean-forward="false" selection-start-line="116" selection-start-column="5" selection-end-line="116" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jContractList.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jx_web/src/main/webapp/WEB-INF/pages/cargo/contract/jContractList.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1698">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jDeptView.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jx_web/src/main/webapp/WEB-INF/pages/sysadmin/dept/jDeptView.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jDeptUpdate.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jx_web/src/main/webapp/WEB-INF/pages/sysadmin/dept/jDeptUpdate.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="struts-sysadmin.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jx_web/src/main/resources/struts/struts-sysadmin.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="22" column="60" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="struts-cargo.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jx_web/src/main/resources/struts/struts-cargo.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="602">
+              <caret line="44" column="51" lean-forward="false" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContractAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jx_web/src/main/java/cn/itcast/jx/action/cargo/ContractAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1223">
+              <caret line="131" column="36" lean-forward="false" selection-start-line="131" selection-start-column="24" selection-end-line="131" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ids</find>
+      <find>iter</find>
+    </findStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/jx_web/src/main/webapp/WEB-INF/pages/cargo/contract/jContractCreate.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/jx_service/src/main/java/cn/itcast/jx/service/ExtCproductService.java" />
+        <option value="$PROJECT_DIR$/jx_web/src/main/java/cn/itcast/jx/action/cargo/ExtCproductAction.java" />
+        <option value="$PROJECT_DIR$/jx_service/src/main/java/cn/itcast/jx/service/impl/ExtCproductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/jx_web/src/main/java/cn/itcast/jx/action/cargo/ContractProductAction.java" />
+        <option value="$PROJECT_DIR$/jx_service/src/main/java/cn/itcast/jx/service/impl/ContractServiceImpl.java" />
+        <option value="$PROJECT_DIR$/jx_web/src/main/java/cn/itcast/jx/action/cargo/OutProductAction.java" />
+        <option value="$PROJECT_DIR$/jx_service/src/main/resources/spring/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/jx_web/src/main/webapp/WEB-INF/pages/cargo/export/jExportCreate.jsp" />
+        <option value="$PROJECT_DIR$/jx_service/src/main/java/cn/itcast/jx/service/impl/ExportServiceImpl.java" />
+        <option value="$PROJECT_DIR$/jx_service/src/main/java/cn/itcast/jx/service/ContractService.java" />
+        <option value="$PROJECT_DIR$/jx_web/src/main/webapp/js/tabledo.js" />
+        <option value="$PROJECT_DIR$/jx_web/src/main/webapp/WEB-INF/pages/cargo/export/jExportUpdate.jsp" />
+        <option value="$PROJECT_DIR$/jx_web/src/main/java/cn/itcast/jx/action/cargo/ExportAction.java" />
+        <option value="$PROJECT_DIR$/jx_utils/src/main/java/cn/itcast/jx/util/FileUtil.java" />
+        <option value="$PROJECT_DIR$/jx_web/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/jx_web/src/main/java/cn/itcast/jx/action/cargo/ContractAction.java" />
+        <option value="$PROJECT_DIR$/jx_utils/src/main/java/cn/itcast/jx/util/PoiUtil.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/jx_web/src/main/webapp/WEB-INF/pages/cargo/outproduct/jOutProduct.jsp" />
+        <option value="$PROJECT_DIR$/jx_web/src/main/java/cn/itcast/jx/action/cargo/outProductAction1.java" />
+        <option value="$PROJECT_DIR$/jx_web/src/main/resources/struts/struts-cargo.xml" />
+        <option value="$PROJECT_DIR$/jx_web/src/main/java/cn/itcast/jx/action/cargo/OutProductAction1.java" />
+        <option value="$PROJECT_DIR$/jx_web/src/main/java/cn/itcast/jx/print/ContractPrint.java" />
+        <option value="$PROJECT_DIR$/jx_web/src/main/resources/spring/applicationContext-action.xml" />
+        <option value="$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/amcharts.js" />
+        <option value="$PROJECT_DIR$/jx_web/src/main/webapp/WEB-INF/pages/stat/chart/pie.jsp" />
+        <option value="$PROJECT_DIR$/jx_web/src/main/webapp/WEB-INF/pages/stat/chart/column.jsp" />
+        <option value="$PROJECT_DIR$/jx_web/src/main/webapp/WEB-INF/pages/stat/chart/line.jsp" />
+        <option value="$PROJECT_DIR$/jx_web/src/main/webapp/WEB-INF/pages/stat/chart/echarts.jsp" />
+        <option value="$PROJECT_DIR$/jx_web/src/main/resources/struts/struts-stat.xml" />
+        <option value="$PROJECT_DIR$/jx_web/src/main/webapp/WEB-INF/pages/stat/left.jsp" />
+        <option value="$PROJECT_DIR$/jx_web/src/main/java/cn/itcast/jx/action/stat/StatChartAction.java" />
+        <option value="$PROJECT_DIR$/jx_web/src/main/webapp/WEB-INF/pages/stat/chart/echarts2.jsp" />
+        <option value="$PROJECT_DIR$/jx_web/src/main/java/cn/itcast/jx/action/sysadmin/DeptAction.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="jx_parent" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="jx_parent" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="tomcat" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="jx_parent" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-9" />
+    <option name="width" value="1932" />
+    <option name="height" value="1048" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Tapestry</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jx_parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jx_parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\ideaworkspace\jiexin\jx_parent\CustomsReportSystem\config" />
+      <recent name="F:\ideaworkspace\jiexin\jx_parent\CustomsReportSystem\src" />
+      <recent name="F:\ideaworkspace\jiexin\jx_parent\CustomsReportSystem" />
+      <recent name="F:\ideaworkspace\jiexin\jx_parent\CustomsReportSystem\lib" />
+      <recent name="F:\ideaworkspace\jiexin\jx_parent\jx_web\src\main\webapp\js\echarts" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Mytomcat">
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_jx_parent" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64882" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method />
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="targets">
+            <list>
+              <WatchedTargetModelImpl>
+                <option name="name" value="CONTEXT_XML" />
+                <name>CONTEXT_XML</name>
+              </WatchedTargetModelImpl>
+              <StagingTargetModelImpl>
+                <option name="name" value="STAGING" />
+                <name>STAGING</name>
+              </StagingTargetModelImpl>
+            </list>
+          </option>
+          <option name="transportHostId" value="" />
+          <host-id />
+        </data>
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="TOMCAT_LOCALHOST_LOG_ID" enabled="true" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64881" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="jx_service" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="false" name="Mytomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.69" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="START_JAVASCRIPT_DEBUGGER" value="true" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="jx_web:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_jx_parent" />
+        <option name="HTTP_PORT" value="8088" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64882" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="jx_web:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Mytomcat" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\leastmoney\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="F:\ideaworkspace\jiexin\jx_parent" />
+          <option name="myCopyRoot" value="F:\ideaworkspace\jiexin\jx_parent" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="F:\ideaworkspace\jiexin\jx_parent\jx_dao" />
+          <option name="myCopyRoot" value="F:\ideaworkspace\jiexin\jx_parent\jx_dao" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="F:\ideaworkspace\jiexin\jx_parent\jx_domain" />
+          <option name="myCopyRoot" value="F:\ideaworkspace\jiexin\jx_parent\jx_domain" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="F:\ideaworkspace\jiexin\jx_parent\jx_exception" />
+          <option name="myCopyRoot" value="F:\ideaworkspace\jiexin\jx_parent\jx_exception" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="F:\ideaworkspace\jiexin\jx_parent\jx_service" />
+          <option name="myCopyRoot" value="F:\ideaworkspace\jiexin\jx_parent\jx_service" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="F:\ideaworkspace\jiexin\jx_parent\jx_utils" />
+          <option name="myCopyRoot" value="F:\ideaworkspace\jiexin\jx_parent\jx_utils" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="F:\ideaworkspace\jiexin\jx_parent\jx_web" />
+          <option name="myCopyRoot" value="F:\ideaworkspace\jiexin\jx_parent\jx_web" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="F:\ideaworkspace\jiexin\jx_parent" />
+          <option name="myCopyRoot" value="F:\ideaworkspace\jiexin\jx_parent" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="756b1094-ef5f-4f48-b66d-f5d8fee242ac" name="Default" comment="" />
+      <created>1499253126078</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1499253126078</updated>
+      <workItem from="1499253130174" duration="6021000" />
+      <workItem from="1499263295231" duration="126000" />
+      <workItem from="1499263444586" duration="320000" />
+      <workItem from="1499263786126" duration="117000" />
+      <workItem from="1499264237506" duration="31000" />
+      <workItem from="1499264541288" duration="164000" />
+      <workItem from="1499360461588" duration="2707000" />
+      <workItem from="1499363233159" duration="1805000" />
+      <workItem from="1499393024243" duration="289000" />
+      <workItem from="1499412845851" duration="11100000" />
+      <workItem from="1499477214171" duration="234000" />
+      <workItem from="1499516161325" duration="6627000" />
+      <workItem from="1499561583522" duration="666000" />
+      <workItem from="1499564157097" duration="122000" />
+      <workItem from="1499568731477" duration="132000" />
+      <workItem from="1499569031807" duration="714000" />
+      <workItem from="1499571152694" duration="396000" />
+      <workItem from="1499587327525" duration="2620000" />
+      <workItem from="1499605228800" duration="4095000" />
+      <workItem from="1499611116617" duration="2709000" />
+      <workItem from="1499614776712" duration="431000" />
+      <workItem from="1499734966991" duration="80000" />
+      <workItem from="1499777093054" duration="7452000" />
+      <workItem from="1499822034749" duration="990000" />
+      <workItem from="1499823074028" duration="3851000" />
+      <workItem from="1499841369086" duration="80000" />
+      <workItem from="1499841633525" duration="1525000" />
+      <workItem from="1499866158615" duration="840000" />
+      <workItem from="1499957947388" duration="702000" />
+      <workItem from="1499958917858" duration="4476000" />
+      <workItem from="1499994453818" duration="15793000" />
+      <workItem from="1500090093886" duration="2323000" />
+      <workItem from="1500130606883" duration="60000" />
+      <workItem from="1500178706642" duration="2207000" />
+      <workItem from="1500262918652" duration="1334000" />
+      <workItem from="1500281354081" duration="4346000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="87485000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="0" width="1932" height="1048" extended-state="0" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36585367" sideWeight="0.50428724" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32627645" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849464" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996845" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3321719" sideWeight="0.49356914" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32672113" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31591174" sideWeight="0.49571276" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24247313" sideWeight="0.48775893" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2881356" sideWeight="0.51224107" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2643533" sideWeight="0.50498754" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973205" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36585367" sideWeight="0.50428724" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3266745" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849464" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973205" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996845" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27642277" sideWeight="0.49356914" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32672113" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33872977" sideWeight="0.49571276" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2881356" sideWeight="0.49501246" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26402017" sideWeight="0.50498754" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2643533" sideWeight="0.50498754" order="5" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="17" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/jx_service/src/main/java/cn/itcast/jx/service/ContractService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="63" column="22" lean-forward="false" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jx_service/src/main/java/cn/itcast/jx/service/impl/ContractServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="85" column="12" lean-forward="false" selection-start-line="85" selection-start-column="12" selection-end-line="85" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jx_utils/src/main/java/cn/itcast/jx/util/FileUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jx_web/src/main/webapp/WEB-INF/pages/cargo/export/jExportUpdate.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jx_web/src/main/java/cn/itcast/jx/action/cargo/ExportAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1932">
+          <caret line="233" column="8" lean-forward="false" selection-start-line="233" selection-start-column="8" selection-end-line="233" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="727">
+          <caret line="278" column="19" lean-forward="true" selection-start-line="278" selection-start-column="19" selection-end-line="278" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jx_web/src/main/resources/ehcache-shiro.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jx_web/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-833">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jx_domain/src/main/java/cn/itcast/jx/domain/Dept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jx_domain/src/main/java/cn/itcast/jx/domain/ContractProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jx_utils/src/main/java/cn/itcast/jx/util/PoiUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="139" column="28" lean-forward="false" selection-start-line="139" selection-start-column="28" selection-end-line="139" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jx_web/src/main/webapp/WEB-INF/pages/cargo/outproduct/jOutProduct.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="27" column="9" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jx_web/src/main/java/cn/itcast/jx/action/cargo/OutProductAction1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jx_web/src/main/java/cn/itcast/jx/action/cargo/OutProductAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jx_web/src/main/java/cn/itcast/jx/action/cargo/ContractProductAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="16" column="58" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jx_web/src/main/java/cn/itcast/jx/print/ContractPrint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="47" column="27" lean-forward="true" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jx_dao/src/main/resources/spring/applicationContext-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jx_web/src/main/webapp/WEB-INF/pages/stat/chart/jStat.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jx_web/src/main/webapp/js/amchart/amcharts/amcharts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="143" column="400" lean-forward="false" selection-start-line="143" selection-start-column="400" selection-end-line="143" selection-end-column="400" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jx_web/src/main/resources/spring/applicationContext-action.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-124">
+          <caret line="48" column="43" lean-forward="false" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jx_web/src/main/webapp/WEB-INF/pages/stat/chart/pie.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jx_web/src/main/webapp/WEB-INF/pages/stat/chart/column.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="10" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jx_dao/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="10" lean-forward="false" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jx_web/src/main/webapp/js/echarts/theme/default.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jx_web/src/main/webapp/js/echarts/chart/bar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-276">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jx_web/src/main/webapp/WEB-INF/pages/stat/chart/line.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jx_web/src/main/webapp/js/echarts/echarts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jx_web/src/main/webapp/js/echarts/chart/k.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jx_web/src/main/resources/struts/struts-stat.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="77" lean-forward="false" selection-start-line="13" selection-start-column="77" selection-end-line="13" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jx_web/src/main/webapp/WEB-INF/pages/stat/left.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="851">
+          <caret line="37" column="73" lean-forward="false" selection-start-line="37" selection-start-column="73" selection-end-line="37" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jx_web/src/main/java/cn/itcast/jx/action/stat/StatChartAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2806">
+          <caret line="131" column="30" lean-forward="false" selection-start-line="131" selection-start-column="30" selection-end-line="131" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jx_web/src/main/webapp/WEB-INF/pages/stat/chart/echarts.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jx_web/src/main/webapp/WEB-INF/pages/stat/chart/echarts2.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="658">
+          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CustomsReportSystem/config/cn/itcast/export/domain/Export.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="49" lean-forward="false" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CustomsReportSystem/src/cn/itcast/export/dao/BaseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CustomsReportSystem/config/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CustomsReportSystem/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="68" lean-forward="false" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CustomsReportSystem/src/cn/itcast/export/dao/impl/BaseDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jx_service/src/main/java/cn/itcast/jx/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jx_web/src/main/webapp/WEB-INF/pages/cargo/contract/jContractCreate.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1813">
+          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jx_web/src/main/resources/struts/struts-cargo.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="44" column="51" lean-forward="false" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jx_web/src/main/resources/struts/struts-sysadmin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="22" column="60" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jx_web/src/main/webapp/WEB-INF/pages/sysadmin/dept/jDeptUpdate.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jx_web/src/main/webapp/WEB-INF/pages/sysadmin/dept/jDeptView.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jx_web/src/main/webapp/WEB-INF/pages/cargo/contract/jContractList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1698">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jx_web/src/main/webapp/WEB-INF/pages/sysadmin/dept/jDeptList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="116" column="5" lean-forward="false" selection-start-line="116" selection-start-column="5" selection-end-line="116" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jx_service/src/main/java/cn/itcast/jx/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-874">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jx_web/src/main/java/cn/itcast/jx/action/cargo/ContractAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1223">
+          <caret line="131" column="36" lean-forward="false" selection-start-line="131" selection-start-column="24" selection-end-line="131" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jx_service/src/main/java/cn/itcast/jx/service/impl/DeptServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="62" column="33" lean-forward="false" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jx_web/src/main/java/cn/itcast/jx/action/sysadmin/DeptAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="80" column="22" lean-forward="false" selection-start-line="80" selection-start-column="15" selection-end-line="80" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>jx_web:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>CustomsReportSystem</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

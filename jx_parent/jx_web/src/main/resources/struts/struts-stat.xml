@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	<constant name="struts.ui.theme" value="simple"/>
+	<constant name="struts.devMode" value="true" />
+	<constant name="struts.i18n.encoding" value="UTF-8" />
+	<!-- 数据统计模块 -->
+	<package name="stat" namespace="/stat" extends="default">
+		<action name="statChartAction_*" class="statChartAction" method="{1}">
+			<result name="factorySale">/WEB-INF/pages/stat/chart/pie.jsp</result>
+			<result name="factorySaleJson">/WEB-INF/pages/stat/chart/echarts2.jsp</result>
+			<result name="productSale">/WEB-INF/pages/stat/chart/column.jsp</result>
+			<result name="onlineInfo">/WEB-INF/pages/stat/chart/line.jsp</result>
+			<result name="onlineInfoJson">/WEB-INF/pages/stat/chart/echarts.jsp</result>
+		</action>
+		
+		
+	</package>
+
+	
+	
+</struts>
